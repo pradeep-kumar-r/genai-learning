@@ -6,19 +6,11 @@ This is a simple example of an AI research assistant agent that uses a combinati
 
 # **Building The Research Agent**
 
-We will build an agent in a step by step manner. We will walk through some critical patterns that help us to build the agent.
-
-Following are the patterns we will explore:
-1. The Agumented Model
+We will build an agent in a step by step manner. We will walk through some critical patterns that help us to build the agent. These are some of the workflow patterns we will explore for our agent:
+1. Vanilla LLM Augmented
 2. Prompt Chaining
-3. Routing
-4. Parallelization - **Not Implemented**
-5. Orchestrator-workers - **Not Implemented**
-6. Evaluator-optimizer - **Not Implemented**
-7. The Agent
-
-**Image Credits:** We are borrowing some of the images from the [Building Effective Agents by Anthropic]( https://www.anthropic.com/engineering/building-effective-agents) blog. Copyright for those images is with original publishers, we are reusing with gratitute.
-
+3. Routing 
+4. Autonomous Agent
 
 ## Prerequisites
 
@@ -35,4 +27,3 @@ Following are the patterns we will explore:
 4. Create API keys for OpenAI, Groq, and ChromaDB
 5. Set environment variables (copy .env.example to .env, place it in the root directory and fill in the values)
 6. Download the research paper
-
