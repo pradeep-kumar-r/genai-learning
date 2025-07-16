@@ -1,0 +1,10 @@
+langchain
+langchain-core
+langchain-groq
+langgraph
+arxiv
+PyPDF2
+requests
+langchain-openai
+python-dotenv
+plotly
