@@ -1,16 +1,20 @@
-# Research Agent
+# AI Research Assistant
 
 For every scientist, academic, grad student, and engineer - literature review is a daunting task. We only wish we could automate getting insights and simplify work of finding papers and summarizing them. With advent of AI that is a distinct possibility. In this demo we attempt to build a Research Assistant for this.
 
-This is a simple example of an AI Research Assistant that uses a combination of an LLM & a vector db in an agentic workflow to answer questions about research papers.
+This is a simple notebook tutorial that demonstates the building of a basic __AI Research Assistant__ with different workflow patters using LangChain. The purpose of the research assistants is to take user query & answer questions about research papers from ArXiv. The following patterns are explored:
+    1. Vanilla LLM Augmented
+    2. Prompt Chaining workflow
+    3. Routing workflow
+    4. Autonomous Agent
 
 This tutorial is based on a session in a 4-week hands-on training summit organized in 2025 by ODSC (Open Data Science Conference) from Atul Kulkarni & Lakshmithejaswi Narasannagari on "From Concept to Creation: Building Advanced AI Applications with LLM’s and AI Agents".
 
 Link to the original GitHub repo -> [https://github.com/Thejaswi05/research_agent_demo](https://github.com/Thejaswi05/research_agent_demo)
 
-# **Building The Research Agent**
+# **Building the AI Research Assistant**
 
-We will build an agent in a step by step manner. First, we will walk through some critical but common workflow patterns using LLMs & tools that help us to build the agent. These are some of the workflow patterns we will explore for our Research Assistant:
+We will build the AI Research Assistant in a step by step manner. First, we will walk through some critical but common workflow patterns using LLMs & tools that help us to build the assistant. These are some of the workflow patterns we will explore for our Research Assistant:
 
 __1. Vanilla LLM Augmented__
 
@@ -54,7 +58,7 @@ This is the most flexible workflow pattern to emulate complex human workflows bu
 3. Install dependencies from [requirements.txt](requirements.txt)
 4. Create API keys for OpenAI, Groq, and ChromaDB
 5. Set environment variables (copy [`.env.example`](.env.example) to `.env`, place it in the root directory and fill in the values)
-6. Open [research_agent_demo.ipynb](research_agent_demo.ipynb) in Jupyter Notebook and play around
+6. Open [research_assistant_demo.ipynb](research_assistant_demo.ipynb) in Jupyter Notebook and play around
 
 
 ##

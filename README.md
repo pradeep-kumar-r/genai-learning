@@ -1,5 +1,5 @@
 # genai-learning
-A collection of tutorials &amp; micro-projects meant as a learning pathway in GenAI (including LLMs, RAG, Chains, Agentic AI - tools, memory etc.)
+A collection of tutorials &amp; micro-projects meant as a learning pathway in GenAI (including LLMs, RAG, Chains, Agents, tools, memory etc.)
 
 #### Disclaimer: 
 This list is not exhaustive and is meant to be a starting point for learning GenAI. 
@@ -9,14 +9,5 @@ It is not meant to be production ready. Use at your own risk.
 
 ## Tutorials
 
-#### research-agent
-A research assistant agent that uses a combination of an LLM & a vector db in an agentic workflow to answer questions about research papers from ArXiv. The following design elements are explored:
-    - Vanilla LLM Augmented
-    - Prompt Chaining
-    - Routing 
-    - Autonomous Agent
-
-[Read more details](research-agent/README.md)
-
-#### rag-sentiment-analysis
-A simple example of using RAG to predict sentiment of AirBnB listings based on past guest reviews.
+#### - [research-assistant-langchain](research-assistant-langchain/README.md)
+#### - [rag-sentiment-analysis](rag-sentiment-analysis/README.md)
