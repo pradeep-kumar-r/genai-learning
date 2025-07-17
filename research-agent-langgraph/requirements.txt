@@ -1,0 +1,13 @@
+arxiv
+PyPDF2
+requests
+langgraph
+langchain
+langchain-openai
+langchain-community
+langchain_groq
+langchain_openai
+langchain_core
+python-dotenv
+plotly
+pydantic
